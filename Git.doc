@@ -1,0 +1,82 @@
+Git commands
+
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/palugunak/maven-project.git
+git push -u origin master
+
+
+Git
+echo "# Abstract" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/palugunak/Abstract.git
+git push -u origin master
+
+
+# This is the scenario:
+git reset HEAD^ --soft
+git rm .env --cached
+git commit --amend
+
+# If you want to completely overwrite the index.html file on the development branch with the one on the master branch, you leave out the --patch flag.
+
+git checkout master index.html
+
+
+#Undo a commit
+There are times when you've committed your changes incorrectly and you want to undo this commit. Sometimes, you may have even pushed the changes to a remote branch. How do you undo or delete this commit? Let's start with undoing a local commit.
+
+git reset --soft HEAD~1
+git reset --hard HEAD~1
+
+
+How to undo a remote commit
+There are times you want to undo a commit you have pushed to a remote repository. You can use git revert to undo it locally and push this change to the remote branch.
+First, get the commit hash using git reflog.
+
+
+Log in pretty format
+git log --pretty=format:"%h - %an, %ar : %s"
+
+$ git show -s --format='%an, %ae' cbfa2f5
+
+
+
+
+
+=====================================================================================================
+https://www.amazon.com/UGREEN-External-Passport-Expansion-10000mAh/dp/B072HJ4FTX/ref=sr_1_2_sspa?crid=1PCG4HU9MUH5Q&dchild=1&keywords=insignia+portable+hard+drive+case&qid=1602026283&sprefix=Insignia+portable+hard%2Caps%2C139&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzSlQ0S1EzM0NGSUMwJmVuY3J5cHRlZElkPUEwNzg0NzE0MVlSTTBSWk42STFZWiZlbmNyeXB0ZWRBZElkPUEwMjQxNjA0MkVVOTFZMDBNNkQ1SiZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=
+
+
+
+
+export M2_HOME=/Users/palugunakadupukotla/Documents/tools/maven/apache-maven-3.6.3
+export PATH=$PATH:$M2_HOME/bin
+export JAVA_HOME=$(/usr/libexec/java_home)
+export PATH=${PATH}:/usr/local/mysql/bin/
+
+
+https://www.amazon.com/Artschatz-Hinduism-Pendants-Nataraja-Pendant/dp/B084Q7KMWB/ref=pd_sbs_197_3/141-4377968-0693800?_encoding=UTF8&pd_rd_i=B084Q7KMWB&pd_rd_r=52c7627c-a840-4ce6-a1f7-227d625b8ff7&pd_rd_w=HP2I4&pd_rd_wg=PK74J&pf_rd_p=ff9b5089-1414-4e8f-9675-3397e98bf276&pf_rd_r=WNN1MVKERHM7B3RH2HJH&psc=1&refRID=WNN1MVKERHM7B3RH2HJH
+
+
+Professional Summary
+• As a DevOps Engineer, I intend to narrow my interest and deepen my knowledge in Enterprise Operations. I seek to learn and gain a global exposure, knowledge of research methodologies, and the latest developments in the software field.
+• AWS Certified with 6 years of IT experience in all phases of Software Development
+Life Cycle (SDLC) such as Planning, Analysis, Design, Implementation, Testing and Maintenance of Web Based, Client - Server in all domains.
+• Experience on technologies and platforms including Jenkins, Git, Unix/Linux, windows server, VMWare, Docker, AWS, across Financial sectors.
+• Improve speed, efficiency and scalability of the continuous integration environment, automating wherever possible using Python and Shell Scripts.
+• Good knowledge and hands on Experience in monitoring tools like Splunk, ELK, AWS Cloud Watch and DataDog.
+• Experience in Atlassian, ticketing and tracking tools like JIRA, Confluence, ServiceNow and HPSM for Production hotfixes and bugfixes using change orders and incidents.
+• Worked in an agile development team to deliver an end to end continuous integration/continuous delivery product in an open source environment using tools like Jenkins.
+• Team player with excellent interpersonal skills, self-motivated, dedicated and understanding the demands of 24/7 system maintenance and has good customer support experience. 
+
+
+
+
+
+
+
